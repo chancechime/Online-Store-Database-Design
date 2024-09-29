@@ -1,60 +1,43 @@
-# Ignore binary files
-*.bin
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Ignore Python bytecode
-__pycache__/
-*.py[cod]
-
-# Ignore virtual environment directories
-venv/
-env/
-ENV/
-.venv/
-.ENV/
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore Python egg files
-*.egg
-*.egg-info/
-dist/
-build/
-eggs/
-parts/
-var/
-sdist/
-develop-eggs/
-.installed.cfg
-lib/
-lib64/
-__pypackages__/
-
-# Ignore pipenv files
-Pipfile.lock
-
-# Ignore mypy files
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Ignore coverage files
+.DS_Store
+.cache
 .coverage
 .coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+.dmypy.json
+.env/
+.env/
+.ENV/
+.ENV/
 .hypothesis/
-.pytest_cache/
-
-# Ignore pyenv files
+.ipynb_checkpoints/
+.installed.cfg
+.mypy_cache/
 .python-version
-
-# Ignore tox files
+.pytest_cache/
 .tox/
 .tox/*
+.venv/
+.venv/
+__pycache__/
+*.bin
+*.cover
+*.dll
+*.dylib
+*.egg
+*.egg-info/
+*.exe
+*.py[cod]
+build/
+coverage.xml
+develop-eggs/
+dist/
+dmypy.json
+eggs/
+env/
+ENV/
+lib/
+lib64/
+nosetests.xml
+parts/
+sdist/
+var/
+venv/
